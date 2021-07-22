@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Description: Latke Repository (H2).
+    Version: 2.1.1.2, May 25, 2015
+    Author: Liang Ding
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.b3log</groupId>
+    <artifactId>latke-repository-h2</artifactId>
+    <packaging>jar</packaging>
+    <name>Latke Repository (H2)</name>
+
+    <description>Latke Repository on H2.</description>
+    <inceptionYear>2012</inceptionYear>
+
+    <parent>
+        <groupId>org.b3log</groupId>
+        <artifactId>latke-parent</artifactId>
+        <version>2.5.8-SNAPSHOT</version>
+    </parent>
+
+    <dependencyManagement>
+        <dependencies>
+
+            <dependency>
+                <groupId>org.b3log</groupId>
+                <artifactId>latke-core</artifactId>
+                <version>${project.parent.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+                <version>${testng.version}</version>
+                <scope>test</scope>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.b3log</groupId>
+            <artifactId>latke-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+</project>
