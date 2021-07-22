@@ -1,12 +1,7 @@
 <p align = "center">
 <img alt="Latke" src="https://user-images.githubusercontent.com/873584/52535454-6a60a980-2d89-11e9-9f4c-000bd7e90f9e.png">
 <br><br>
-一款以 JSON 为主的 Java Web 框架
-<br><br>
-<a title="Build Status" target="_blank" href="https://travis-ci.org/b3log/latke"><img src="https://img.shields.io/travis/b3log/latke.svg?style=flat-square"></a>
-<a title="Apache2" target="_blank" href="https://www.gnu.org/licenses/agpl-3.0.txt"><img src="http://img.shields.io/badge/license-Apache2-orange.svg?style=flat-square"></a>
-<a title="Maven Central" target="_blank" href="http://repo1.maven.org/maven2/org/b3log/latke-parent"><img src="https://maven-badges.herokuapp.com/maven-central/org.b3log/latke-parent/badge.svg?style=flat-square&color=blueviolet"></a>
-<a title="Hits" target="_blank" href="https://github.com/b3log/hits"><img src="https://hits.b3log.org/b3log/latke.svg"></a>
+一款以 JSON 为主的 Java Web 框架（Servlet 分支版本）
 </p>
 
 ## 简介
