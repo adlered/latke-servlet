@@ -6,7 +6,7 @@
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>pers.adlered</groupId>
+    <groupId>io.github.adlered</groupId>
     <artifactId>latke-repository-oracle</artifactId>
     <packaging>jar</packaging>
 
@@ -15,7 +15,7 @@
     <inceptionYear>2017</inceptionYear>
 
     <parent>
-        <groupId>pers.adlered</groupId>
+        <groupId>io.github.adlered</groupId>
         <artifactId>latke-parent</artifactId>
         <version>1.0.0</version>
     </parent>
@@ -28,7 +28,7 @@
         <dependencies>
 
             <dependency>
-                <groupId>pers.adlered</groupId>
+                <groupId>io.github.adlered</groupId>
                 <artifactId>latke-servlet</artifactId>
                 <version>${project.parent.version}</version>
             </dependency>
@@ -53,7 +53,7 @@
     <dependencies>
 
         <dependency>
-            <groupId>pers.adlered</groupId>
+            <groupId>io.github.adlered</groupId>
             <artifactId>latke-servlet</artifactId>
         </dependency>
 
